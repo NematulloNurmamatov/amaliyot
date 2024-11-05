@@ -268,15 +268,15 @@ var news = {
 // });
 
 
+let a = prompt("Please enter")
 
-
-// function uzb() {
-//     let uzb2 = news.posts.filter((post)=>{
-//         return post.title.includes('O‘zbekiston');
-//     })
-//     console.log(uzb2);
+function uzb() {
+    let uzb2 = news.posts.filter((post)=>{
+        return post.title.includes(a);
+    })
+    console.log(uzb2);
     
-// }
+}
 
 // function sport() {
 //     news.posts.forEach(element => {
